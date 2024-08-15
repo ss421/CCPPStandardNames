@@ -21,7 +21,7 @@
 * [GFS_typedefs_GFS_radtend_type](#gfs_typedefs_gfs_radtend_type)
 * [GFS_typedefs_GFS_grid_type](#gfs_typedefs_gfs_grid_type)
 * [GFS_typedefs_GFS_stateout_type](#gfs_typedefs_gfs_stateout_type)
-* [Met Office Data Assimilation varibales](#Met-Office-Data-Assimilation-varibales)
+* [Met Office Data Assimilation variables](#Met-Office-Data-Assimilation-variables)
 
 ## dimensions
 Dimension standard names may come in sets of six related standard names for each dimension:
@@ -2182,8 +2182,25 @@ Variables related to the compute environment
     * `real(kind=kind_phys)`: units = m s-1
 * `y_wind_of_new_state`: Y wind of new state
     * `real(kind=kind_phys)`: units = m s-1
-## Met Office Data Assimilation varibales
+## Met Office Data Assimilation variables
 * `a_coefficient_for_moisture_control_variable_at_top_interfaces`: a coefficient for moisture control variable at top interfaces
     * `real(kind=kind_phys)`: units = 1?
 * `h1_coefficient_for_moisture_control_variable_at_top_interfaces`: h1 coefficient for moisture control variable at top interfaces
     * `real(kind=kind_phys)`: units = 1?
+* `reciprocal_determinant_for_moisture_control_variable_at_top_interfaces`: reciprocal determinant for moisture control variable at top interfaces
+    * `real(kind=kind_phys)`: units = 1?
+* `matrix_coeff_11_for_moisture_control_variable_at_top_interfaces`: matrix coeff 11 for moisture control variable at top interfaces
+    * `real(kind=kind_phys)`: units = 1?
+* `matrix_coeff_21_for_moisture_control_variable_at_top_interfaces`: matrix coeff 21 for moisture control variable at top interfaces
+    * `real(kind=kind_phys)`: units = 1?
+* `matrix_coeff_12_for_moisture_control_variable_at_top_interfaces`: matrix coeff 12 for moisture control variable at top interfaces
+    * `real(kind=kind_phys)`: units = 1?
+* `matrix_coeff_22_for_moisture_control_variable_at_top_interfaces`: matrix coeff 22 for moisture control variable at top interfaces
+    * `real(kind=kind_phys)`: units = 1?
+
+
+
+
+
+
+
