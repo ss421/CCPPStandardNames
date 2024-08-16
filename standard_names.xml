@@ -3389,4 +3389,32 @@
          <type kind="kind_phys" units="m s-1">real</type>
       </standard_name>
    </section>
+   <section name="Met Office Data Assimilation variables">
+      <standard_name name="a_coefficient_for_moisture_control_variable_at_top_interfaces">
+         <type kind="kind_phys" units="1?">real</type>
+      </standard_name>
+      <standard_name name="h1_coefficient_for_moisture_control_variable_at_top_interfaces">
+         <type kind="kind_phys" units="1?">real</type>
+      </standard_name>
+      <standard_name name="moisture_control_variables_coefficient_1_1_at_top_interfaces"
+                    long_name="Contribution of the total water mixing ratio wrt moist air and condensed water increment to the associated moisture control variable increment in the linear moisture control variable change. ">
+         <type kind="kind_phys" units="1">real</type>
+      </standard_name>
+      <standard_name name="moisture_control_variables_coefficient_1_2_at_top_interfaces"
+                    long_name="Contribution of the potential temperature increment to the associated moisture control variable increment in the linear moisture control variable change. ">
+         <type kind="kind_phys" units="K-1">real</type>
+      </standard_name>
+      <standard_name name="moisture_control_variables_coefficient_2_1_at_top_interfaces"
+                    long_name="Contribution of the total water mixing ratio wrt moist air and condensed water increment to the associated virtual potential temperature increment in the linear moisture control variable change. ">
+         <type kind="kind_phys" units="K">real</type>
+      </standard_name>
+      <standard_name name="moisture_control_variables_coefficient_2_2_at_top_interfaces"
+                    long_name="Contribution of the potential temperature increment to the associated virtual potential temperature increment in the linear moisture control variable change. ">
+         <type kind="kind_phys" units="1">real</type>
+      </standard_name>
+      <standard_name name="reciprocal_of_moisture_control_variable_determinant_at_top_interfaces"
+                    long_name="Reciprocal of the determinant of the linear variable change relating [total water mixing ratio wrt moist air and condensed water] and [potential temperature] increments to the associated [moisture control variable] and [virtual potential temperature] increment. ">
+         <type kind="kind_phys" units="1">real</type>
+      </standard_name>
+   </section>
 </standard_names>
